@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#868686" >
+
+    <EditText
+        android:id="@+id/adminsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="21dp"
+        android:ems="11"
+        android:hint="품명" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:text="로그아웃" />
+
+    <Button
+        android:id="@+id/insertbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adminsearch"
+        android:layout_alignParentLeft="true"
+        android:text="물품삽입" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="관리자 전용입니다."
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/adminsearchbtn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button2"
+        android:text="검  색" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adminsearch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="주 의 물 품"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="29dp" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="       ID" />
+
+            <TextView
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="품명" />
+
+            <TextView
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="수량" />
+
+            <TextView
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="유통기한" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtView0_1"
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView0_2"
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView0_3"
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView0_4"
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="        " />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtView1_1"
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView1_2"
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView1_3"
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView1_4"
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="        " />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtView2_1"
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView2_2"
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView2_3"
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView2_4"
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="        " />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtView3_1"
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView3_2"
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView3_3"
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView3_4"
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="        " />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtView4_1"
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView4_2"
+                android:layout_width="70sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView4_3"
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/txtView4_4"
+                android:layout_width="80sp"
+                android:layout_height="20sp"
+                android:text="        " />
+        </TableRow>
+        
+    </TableLayout>
+
+</RelativeLayout>

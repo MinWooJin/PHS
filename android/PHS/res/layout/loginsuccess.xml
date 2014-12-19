@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#868686" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:text="%%%님 환영합니다"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="296dp"
+        android:layout_height="242dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/nonsearchbtn"
+        android:layout_marginBottom="37dp"
+        android:src="@drawable/home" />
+
+    <EditText
+        android:id="@+id/nonsearchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/bagbtn"
+        android:layout_marginTop="46dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="품명" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bagbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nonsearchText"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="33dp"
+        android:text="장바구니" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:text="회원탈퇴" />
+
+    <Button
+        android:id="@+id/nonsearchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nonsearchText"
+        android:layout_alignBottom="@+id/nonsearchText"
+        android:layout_alignLeft="@+id/button3"
+        android:text="검색" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bagbtn"
+        android:layout_alignBottom="@+id/bagbtn"
+        android:layout_centerHorizontal="true"
+        android:text="로그아웃" />
+
+</RelativeLayout>

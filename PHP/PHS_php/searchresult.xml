@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+<node>
+<id>00005</id>
+<name>딸기</name>
+<price>800</price>
+<quantity>150</quantity>
+<l_id>1-CH</l_id>
+</node>

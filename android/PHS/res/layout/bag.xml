@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="519dp"
+            android:background="#868686" >
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/button2"
+                android:layout_alignBottom="@+id/button2"
+                android:layout_alignParentRight="true"
+                android:text="회원탈퇴" />
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView2" >
+
+                <TableRow
+                    android:id="@+id/tableRow0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn0"
+                        android:layout_width="80sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView0_1"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView0_2"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView0_3"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <EditText
+                            android:id="@+id/editText0"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff"
+                            android:hint="담을수량"
+                            android:textSize="7sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/update_bag0"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/mapbtn0"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/delete_bag0"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn1"
+                        android:layout_width="80sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView1_1"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView1_2"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView1_3"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <EditText
+                            android:id="@+id/editText1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff"
+                            android:hint="담을수량"
+                            android:textSize="7sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/update_bag1"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/mapbtn1"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/delete_bag1"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn2"
+                        android:layout_width="80sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView2_1"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView2_2"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView2_3"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <EditText
+                            android:id="@+id/editText2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff"
+                            android:hint="담을수량"
+                            android:textSize="7sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/update_bag2"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/mapbtn2"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/delete_bag2"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn3"
+                        android:layout_width="80sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView3_1"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView3_2"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView3_3"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <EditText
+                            android:id="@+id/editText3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff"
+                            android:hint="담을수량"
+                            android:textSize="7sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/update_bag3"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/mapbtn3"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/delete_bag3"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn4"
+                        android:layout_width="80sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView4_1"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView4_2"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView4_3"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <EditText
+                            android:id="@+id/editText4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff"
+                            android:hint="담을수량"
+                            android:textSize="7sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/update_bag4"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/mapbtn4"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/delete_bag4"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn5"
+                        android:layout_width="80sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView5_1"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView5_2"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView5_3"
+                            android:layout_width="80sp"
+                            android:layout_height="15sp"
+                            android:text="       " />
+
+                        <EditText
+                            android:id="@+id/editText5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff"
+                            android:hint="담을수량"
+                            android:textSize="7sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/update_bag5"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/mapbtn5"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+
+                    <Button
+                        android:id="@+id/delete_bag5"
+                        android:layout_width="64sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="11dp"
+                android:text="%%%님 환영합니다!"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/searchbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/button3"
+                android:layout_below="@+id/button3"
+                android:layout_marginTop="17dp"
+                android:text="검색" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_marginRight="21dp"
+                android:layout_marginTop="16dp"
+                android:layout_toLeftOf="@+id/button3"
+                android:text="로그아웃" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="280dp"
+                android:layout_height="58dp"
+                android:layout_alignLeft="@+id/searchTxt"
+                android:layout_below="@+id/searchbtn"
+                android:layout_marginTop="15dp"
+                android:text="총 합계 : "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/searchTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/searchbtn"
+                android:layout_alignBottom="@+id/searchbtn"
+                android:layout_alignRight="@+id/button2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:hint="품명" />
+
+        </RelativeLayout>
+        
+        </LinearLayout>
+
+</ScrollView>

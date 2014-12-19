@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="16" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.phs.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="join"></activity>
+        <activity android:name="adminloginsession"></activity>
+        <activity android:name="loginsession"></activity>
+        <activity android:name="nonlogin_search"></activity>
+        <activity android:name="loginsuccess"></activity>
+        <activity android:name="bag"></activity>
+        <activity android:name="admin"></activity>
+        <activity android:name="insert_stuff"></activity>
+        <activity android:name="admin_search"></activity>
+        <activity android:name="admin_detail"></activity>
+        <activity android:name="login_search"></activity>
+        <activity android:name="logout"></activity>
+        <activity android:name="welcome_join"></activity>
+        <activity android:name="secession"></activity>
+        <activity android:name="insert_bag"></activity>
+        <activity android:name="update_bag"></activity>
+        <activity android:name="delete_bag"></activity>
+        <activity android:name="admin_logout"></activity>
+        <activity android:name="map"></activity>
+    </application>
+
+</manifest>

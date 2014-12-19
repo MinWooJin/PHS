@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+<node>
+<id>00043</id>
+<name>신라면</name>
+<kind>식료품</kind>
+<price>450</price>
+<cost>150</cost>
+<quantity>400</quantity>
+<stock>600</stock>
+<date>2013-12-11</date>
+<expiration>2014-05-07</expiration>
+<l_id>1-DF</l_id>
+</node>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#868686" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="9dp"
+                android:layout_x="76dp"
+                android:layout_y="6dp"
+                android:text="마트 방문을 환영합니다!"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@+id/editText1"
+                android:layout_below="@+id/nonsearchText"
+                android:layout_marginTop="29dp" >
+
+                <TableRow
+                    android:id="@+id/tableRow0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn0"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView0_1"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView0_2"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView0_3"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/mapbtn0"
+                        android:layout_width="100sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn1"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView1_1"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView1_2"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView1_3"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/mapbtn1"
+                        android:layout_width="100sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn2"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView2_1"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView2_2"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView2_3"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/mapbtn2"
+                        android:layout_width="100sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn3"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView3_1"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView3_2"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView3_3"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/mapbtn3"
+                        android:layout_width="100sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn4"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView4_1"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView4_2"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView4_3"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/mapbtn4"
+                        android:layout_width="100sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn5"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView5_1"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView5_2"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView5_3"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/mapbtn5"
+                        android:layout_width="100sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn6"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView6_1"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView6_2"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView6_3"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/mapbtn6"
+                        android:layout_width="100sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn7"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView7_1"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView7_2"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView7_3"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/mapbtn7"
+                        android:layout_width="100sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/imbtn8"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/txtView8_1"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView8_2"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+
+                        <TextView
+                            android:id="@+id/txtView8_3"
+                            android:layout_width="100sp"
+                            android:layout_height="20sp"
+                            android:text="       " />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/mapbtn8"
+                        android:layout_width="100sp"
+                        android:layout_height="fill_parent"
+                        android:text="empty" />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/searchbtn"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/nonsearchText"
+                android:layout_alignBottom="@+id/nonsearchText"
+                android:layout_marginLeft="24dp"
+                android:layout_toRightOf="@+id/nonsearchText"
+                android:text="검색"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/joinbtn"
+                android:layout_width="131dp"
+                android:layout_height="76dp"
+                android:layout_alignRight="@+id/searchbtn"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="37dp"
+                android:text="회원가입"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/mainbtn"
+                android:layout_width="140dp"
+                android:layout_height="76dp"
+                android:layout_above="@+id/nonsearchText"
+                android:layout_alignLeft="@+id/nonsearchText"
+                android:text="메인화면"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/nonsearchText"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/joinbtn"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff"
+                android:ems="10"
+                android:hint="품명" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
